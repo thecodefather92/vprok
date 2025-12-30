@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "product": "node build/product",
+    "catalog": "node build/catalog"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "puppeteer": "^24.34.0"
+  }
+}
